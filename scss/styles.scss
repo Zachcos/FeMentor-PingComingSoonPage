@@ -3,6 +3,7 @@
 /* Variables and Mixins */
 $blue: hsl(223, 87%, 63%);
 $paleBlue: hsl(223, 100%, 88%);
+$lightPaleBlue: hsl(224, 87%, 70%);
 $lightRed: hsl(354, 100%, 66%);
 $gray: hsl(0, 0%, 59%);
 $veryDarkBlue: hsl(209, 33%, 12%);
@@ -64,10 +65,15 @@ body {
         font-weight: 600;
         height: 55px;
         margin-left: 2%;
+        outline: none;
         padding: 5px 40px;
         width: 28%;
         -webkit-box-shadow: 0 10px 10px 2px hsla(223, 87%, 63%, 0.2);
         box-shadow: 0 10px 10px 2px hsla(223, 87%, 63%, 0.2);
+        &:hover {
+          background: $lightPaleBlue;
+          cursor: pointer;
+        }
       }
     }
   }
@@ -82,24 +88,32 @@ body {
     &__social {
       display: flex;
       justify-content: space-around;
-      width: 18%;
       margin: 0 auto;
+      width: 18%;
       &--icon {
-        width: 30px;
-        height: 30px;
-        border: 1px solid hsla(0, 0%, 59%, 0.2);
         border-radius: 50%;
+        border: 1px solid hsla(0, 0%, 59%, 0.2);
+        cursor: pointer;
+        height: 30px;
         margin-bottom: 25px;
+        width: 30px;
+        &:hover {
+          border-color: $blue;
+          background: $blue;
+          i {
+            color: hsl(0, 0%, 100%);
+          }
+        }
         i {
+          color: $blue;
           position: relative;
           top: 2px;
-          color: $blue;
         }
       }
     }
     &__copy {
-      font-size: 0.75rem;
       color: $gray;
+      font-size: 0.75rem;
       margin-bottom: 50px;
     }
   }
