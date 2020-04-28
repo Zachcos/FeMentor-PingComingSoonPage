@@ -18,9 +18,55 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: 40%;
+  width: 50%;
   .logo {
     text-align: center;
-    margin: 85px 0;
+    margin: 85px 0 50px;
+  }
+  .cta {
+    text-align: center;
+    h1 {
+      color: $gray;
+      font-size: 3rem;
+      font-weight: 300;
+      margin-bottom: 20px;
+      .emphasis {
+        color: $veryDarkBlue;
+        font-weight: 700;
+      }
+    }
+    h2 {
+      color: $veryDarkBlue;
+      margin-bottom: 40px;
+    }
+    form {
+      width: 100%;
+      input {
+        border-radius: 30px;
+        font-size: 1rem;
+        font-weight: 300;
+        height: 55px;
+        width: 60%;
+        outline: none;
+        border: 1px solid $paleBlue;
+        padding: 5px 25px;
+        &::-webkit-input-placeholder {
+          color: $gray;
+          opacity: 0.4;
+        }
+      }
+      button {
+        height: 55px;
+        border-radius: 30px;
+        width: 28%;
+        padding: 5px 40px;
+        margin-left: 2%;
+        font-weight: 600;
+        color: hsla(0, 0%, 100%, 0.9);
+        border: transparent;
+        background-color: $blue;
+        font-size: 1.05rem;
+      }
+    }
   }
 }

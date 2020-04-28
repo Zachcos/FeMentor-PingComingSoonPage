@@ -147,11 +147,57 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: 40%;
+  width: 50%;
 }
 .wrapper .logo {
   text-align: center;
-  margin: 85px 0;
+  margin: 85px 0 50px;
+}
+.wrapper .cta {
+  text-align: center;
+}
+.wrapper .cta h1 {
+  color: #969696;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.wrapper .cta h1 .emphasis {
+  color: #151f29;
+  font-weight: 700;
+}
+.wrapper .cta h2 {
+  color: #151f29;
+  margin-bottom: 40px;
+}
+.wrapper .cta form {
+  width: 100%;
+}
+.wrapper .cta form input {
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  height: 55px;
+  width: 60%;
+  outline: none;
+  border: 1px solid #c2d3ff;
+  padding: 5px 25px;
+}
+.wrapper .cta form input::-webkit-input-placeholder {
+  color: #969696;
+  opacity: 0.4;
+}
+.wrapper .cta form button {
+  height: 55px;
+  border-radius: 30px;
+  width: 28%;
+  padding: 5px 40px;
+  margin-left: 2%;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  border: transparent;
+  background-color: #4f7df3;
+  font-size: 1.05rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
