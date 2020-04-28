@@ -173,6 +173,12 @@ body {
 .wrapper .cta form {
   width: 100%;
 }
+.wrapper .cta form.error input {
+  border-color: #ff5263;
+}
+.wrapper .cta form.error .error-msg {
+  display: block;
+}
 .wrapper .cta form input {
   border-radius: 30px;
   border: 1px solid #c2d3ff;
@@ -205,6 +211,14 @@ body {
 .wrapper .cta form button:hover {
   background: #7093f5;
   cursor: pointer;
+}
+.wrapper .cta form .error-msg {
+  color: #ff5263;
+  display: none;
+  font-size: 0.7rem;
+  font-style: italic;
+  margin: 15px 0 0 65px;
+  text-align: left;
 }
 .wrapper .dashboard-img {
   margin-bottom: 80px;

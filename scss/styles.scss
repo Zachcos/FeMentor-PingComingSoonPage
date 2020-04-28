@@ -42,6 +42,14 @@ body {
     }
     form {
       width: 100%;
+      &.error {
+        input {
+          border-color: $lightRed;
+        }
+        .error-msg {
+          display: block;
+        }
+      }
       input {
         border-radius: 30px;
         border: 1px solid $paleBlue;
@@ -74,6 +82,14 @@ body {
           background: $lightPaleBlue;
           cursor: pointer;
         }
+      }
+      .error-msg {
+        color: $lightRed;
+        display: none;
+        font-size: 0.7rem;
+        font-style: italic;
+        margin: 15px 0 0 65px;
+        text-align: left;
       }
     }
   }

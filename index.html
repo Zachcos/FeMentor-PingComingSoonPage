@@ -31,8 +31,9 @@
         <h1>We are launching <span class="emphasis">soon!</span></h1>
         <h2>Subscribe and get notified</h2>
         <form id="form" novalidate>
-          <input type="text" placeholder="Your email address..." />
-          <button>Notify Me</button>
+          <input id="email" type="text" placeholder="Your email address..." />
+          <button aria-label="Submit">Notify Me</button>
+          <p class="error-msg">Please provide a valid email address</p>
         </form>
       </div>
       <div class="dashboard-img">
@@ -58,5 +59,6 @@
         </div>
       </div>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
