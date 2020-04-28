@@ -149,5 +149,9 @@ body {
   margin: 0 auto;
   width: 40%;
 }
+.wrapper .logo {
+  text-align: center;
+  margin: 85px 0;
+}
 
 /*# sourceMappingURL=styles.css.map */
