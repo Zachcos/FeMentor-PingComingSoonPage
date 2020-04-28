@@ -198,6 +198,8 @@ body {
   margin-left: 2%;
   padding: 5px 40px;
   width: 28%;
+  -webkit-box-shadow: 0 10px 10px 2px rgba(79, 125, 243, 0.2);
+  box-shadow: 0 10px 10px 2px rgba(79, 125, 243, 0.2);
 }
 .wrapper .dashboard-img {
   margin-bottom: 80px;
