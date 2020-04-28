@@ -150,10 +150,11 @@ body {
   width: 50%;
 }
 .wrapper .logo {
-  text-align: center;
   margin: 85px 0 50px;
+  text-align: center;
 }
 .wrapper .cta {
+  margin-bottom: 80px;
   text-align: center;
 }
 .wrapper .cta h1 {
@@ -175,29 +176,35 @@ body {
 }
 .wrapper .cta form input {
   border-radius: 30px;
+  border: 1px solid #c2d3ff;
   font-size: 1rem;
   font-weight: 300;
   height: 55px;
-  width: 60%;
   outline: none;
-  border: 1px solid #c2d3ff;
   padding: 5px 25px;
+  width: 60%;
 }
 .wrapper .cta form input::-webkit-input-placeholder {
   color: #969696;
   opacity: 0.4;
 }
 .wrapper .cta form button {
-  height: 55px;
-  border-radius: 30px;
-  width: 28%;
-  padding: 5px 40px;
-  margin-left: 2%;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.9);
-  border: transparent;
   background-color: #4f7df3;
+  border-radius: 30px;
+  border: transparent;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 1.05rem;
+  font-weight: 600;
+  height: 55px;
+  margin-left: 2%;
+  padding: 5px 40px;
+  width: 28%;
+}
+.wrapper .dashboard-img {
+  text-align: center;
+}
+.wrapper .dashboard-img img {
+  width: 90%;
 }
 
 /*# sourceMappingURL=styles.css.map */

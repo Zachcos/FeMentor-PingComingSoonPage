@@ -20,10 +20,11 @@ body {
   margin: 0 auto;
   width: 50%;
   .logo {
-    text-align: center;
     margin: 85px 0 50px;
+    text-align: center;
   }
   .cta {
+    margin-bottom: 80px;
     text-align: center;
     h1 {
       color: $gray;
@@ -43,30 +44,36 @@ body {
       width: 100%;
       input {
         border-radius: 30px;
+        border: 1px solid $paleBlue;
         font-size: 1rem;
         font-weight: 300;
         height: 55px;
-        width: 60%;
         outline: none;
-        border: 1px solid $paleBlue;
         padding: 5px 25px;
+        width: 60%;
         &::-webkit-input-placeholder {
           color: $gray;
           opacity: 0.4;
         }
       }
       button {
-        height: 55px;
-        border-radius: 30px;
-        width: 28%;
-        padding: 5px 40px;
-        margin-left: 2%;
-        font-weight: 600;
-        color: hsla(0, 0%, 100%, 0.9);
-        border: transparent;
         background-color: $blue;
+        border-radius: 30px;
+        border: transparent;
+        color: hsla(0, 0%, 100%, 0.9);
         font-size: 1.05rem;
+        font-weight: 600;
+        height: 55px;
+        margin-left: 2%;
+        padding: 5px 40px;
+        width: 28%;
       }
+    }
+  }
+  .dashboard-img {
+    text-align: center;
+    img {
+      width: 90%;
     }
   }
 }
