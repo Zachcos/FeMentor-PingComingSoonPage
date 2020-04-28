@@ -12,3 +12,11 @@ body {
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 40%;
+}
