@@ -304,5 +304,10 @@ body {
     width: 30%;
   }
 }
+@media screen and (max-width: 375px) {
+  .wrapper .footer__social {
+    width: 60%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

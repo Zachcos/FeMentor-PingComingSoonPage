@@ -187,3 +187,13 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    .footer {
+      &__social {
+        width: 60%;
+      }
+    }
+  }
+}
