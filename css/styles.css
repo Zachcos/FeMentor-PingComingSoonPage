@@ -262,4 +262,47 @@ body {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 625px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper .cta h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .wrapper .cta h1 .emphasis {
+    color: #151f29;
+    font-weight: 700;
+  }
+  .wrapper .cta h2 {
+    margin-bottom: 40px;
+  }
+  .wrapper .cta form {
+    width: 100%;
+  }
+  .wrapper .cta form.error input {
+    border-color: #ff5263;
+  }
+  .wrapper .cta form.error .error-msg {
+    display: block;
+  }
+  .wrapper .cta form input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .wrapper .cta form button {
+    margin-left: 0;
+    width: 100%;
+    order: 3;
+  }
+  .wrapper .cta form .error-msg {
+    margin: 0 0 25px 0;
+    text-align: center;
+    order: 2;
+  }
+  .wrapper .footer__social {
+    width: 30%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -138,3 +138,52 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 625px) {
+  .wrapper {
+    width: 90%;
+    .cta {
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+        .emphasis {
+          color: $veryDarkBlue;
+          font-weight: 700;
+        }
+      }
+      h2 {
+        margin-bottom: 40px;
+      }
+      form {
+        width: 100%;
+        &.error {
+          input {
+            border-color: $lightRed;
+          }
+          .error-msg {
+            display: block;
+          }
+        }
+        input {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+        button {
+          margin-left: 0;
+          width: 100%;
+          order: 3;
+        }
+        .error-msg {
+          margin: 0 0 25px 0;
+          text-align: center;
+          order: 2;
+        }
+      }
+    }
+    .footer {
+      &__social {
+        width: 30%;
+      }
+    }
+  }
+}
