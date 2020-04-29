@@ -20,7 +20,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   text-align: center;
-  width: 50%;
+  width: 45%;
   .logo {
     margin: 85px 0 50px;
   }
@@ -41,6 +41,8 @@ body {
       margin-bottom: 40px;
     }
     form {
+      display: flex;
+      flex-wrap: wrap;
       width: 100%;
       &.error {
         input {
@@ -58,7 +60,7 @@ body {
         height: 55px;
         outline: none;
         padding: 5px 25px;
-        width: 60%;
+        width: 70%;
         &::-webkit-input-placeholder {
           color: $gray;
           opacity: 0.4;
@@ -86,9 +88,11 @@ body {
       .error-msg {
         color: $lightRed;
         display: none;
+        flex-basis: 100%;
         font-size: 0.7rem;
         font-style: italic;
-        margin: 15px 0 0 65px;
+        margin: 10px 0 0 30px;
+        order: 3;
         text-align: left;
       }
     }

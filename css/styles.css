@@ -148,7 +148,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   text-align: center;
-  width: 50%;
+  width: 45%;
 }
 .wrapper .logo {
   margin: 85px 0 50px;
@@ -171,6 +171,8 @@ body {
   margin-bottom: 40px;
 }
 .wrapper .cta form {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 .wrapper .cta form.error input {
@@ -187,7 +189,7 @@ body {
   height: 55px;
   outline: none;
   padding: 5px 25px;
-  width: 60%;
+  width: 70%;
 }
 .wrapper .cta form input::-webkit-input-placeholder {
   color: #969696;
@@ -215,9 +217,11 @@ body {
 .wrapper .cta form .error-msg {
   color: #ff5263;
   display: none;
+  flex-basis: 100%;
   font-size: 0.7rem;
   font-style: italic;
-  margin: 15px 0 0 65px;
+  margin: 10px 0 0 30px;
+  order: 3;
   text-align: left;
 }
 .wrapper .dashboard-img {
