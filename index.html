@@ -31,7 +31,13 @@
         <h1>We are launching <span class="emphasis">soon!</span></h1>
         <h2>Subscribe and get notified</h2>
         <form id="form" novalidate>
-          <input id="email" type="text" placeholder="Your email address..." />
+          <input
+            id="email"
+            name="email"
+            aria-label="email"
+            type="text"
+            placeholder="Your email address..."
+          />
           <p class="error-msg">Please provide a valid email address</p>
           <button aria-label="Submit">Notify Me</button>
         </form>
